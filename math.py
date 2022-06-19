@@ -19,4 +19,29 @@ def USG(num,num1):
 
     return minimum
 
+def plus(*arg):
+    equal = 0
+    for c in range(len(arg)):
+        equal = equal + arg
+    return equal
+
+def minus(*arg):
+    equal = 0
+    for c in range(len(arg)):
+        equal = equal - arg
+    return equal
+
+def multiple(*arg):
+    equal = 0
+    for c in range(len(arg)):
+        equal = equal * arg
+    return equal
+
+    
+def devide(*arg):   
+
+    
+
+
+
 
